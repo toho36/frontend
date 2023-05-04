@@ -11,9 +11,31 @@
   },
   "plugins": ["react"],
   "rules": {
+    "operator-linebreak": "off",
+    "comma-dangle": "off",
+    "react/function-component-definition": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "react/jsx-filename-extension": "off",
+    "react/destructuring-assignment": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/button-has-type": "off",
+    "spaced-comment": "off",
+    "arrow-body-style": "off",
+    "react/jsx-props-no-spreading": "off",
     "no-console": "warn",
     "semi": ["error", "always"],
     "quotes": ["error", "single"],
-    "no-unused-vars": ["war'no-console': 'off',n"]
+    "no-unused-vars": ["warn"],
+    "max-len": [
+      2,
+      {
+        "code": 150,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
   }
 }
